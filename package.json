@@ -1,5 +1,5 @@
 {
-  "name": "Plantilla_react",
+  "name": "React_basic_layout",
   "version": "1.0.0",
   "description": "Repositorio plantilla con configuracion básica de webppack y babel",
   "main": "index.js",
