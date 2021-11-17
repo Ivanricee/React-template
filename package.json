@@ -1,5 +1,5 @@
 {
-  "name": "React_basic_layout",
+  "name": "ivanrice-react-template",
   "version": "1.0.0",
   "description": "Repositorio plantilla con configuracion básica de webppack y babel",
   "main": "index.js",
@@ -41,8 +41,10 @@
     "webpack-dev-server": "^4.4.0"
   },
   "dependencies": {
+    "history": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2",
     "styled-components": "^5.3.3"
   },
   "lint-staged": {

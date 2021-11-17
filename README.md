@@ -1,9 +1,9 @@
 # Plantilla ivanrice
-## Configuracion báisca
-## Installation
+## Configuracion básica
+## Installación
 
 - Install vscode prettier, eslint
-- Install Eslint globally
+- Install Eslint global
 
 ```sh
 npm install -g eslint
@@ -17,10 +17,10 @@ https://github.com/okonet/lint-staged
 
 ## SCRIPTS
 ```sh
+    "build"
     "dev": webpack serve
     "format": prettier format
     "lint": eslint
-    "prepare":
 ```
 
 

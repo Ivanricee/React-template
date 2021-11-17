@@ -76,3 +76,5 @@ yarn-error.log
 dist/
 .DS_Store
 src/server/public
+
+.vercel
