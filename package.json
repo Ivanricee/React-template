@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^1.13.3",
     "css-loader": "^6.5.1",
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.0",

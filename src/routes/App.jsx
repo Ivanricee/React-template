@@ -1,15 +1,19 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from '../components/Home'
-import { NotFound } from '../container/NotFound'
+import { NotFound } from '../components/NotFound'
+
+import { Layout } from '../components/Layout'
 
 export const App = () => {
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </Layout>
         </BrowserRouter>
     )
 }

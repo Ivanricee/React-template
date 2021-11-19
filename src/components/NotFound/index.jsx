@@ -1,9 +1,10 @@
 import React from 'react'
+import { Title } from './styles'
 
 export const NotFound = () => {
     return (
         <header>
-            <h1>404 Not Found</h1>
+            <Title>404 Not Found</Title>
         </header>
     )
 }
