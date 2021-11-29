@@ -9,6 +9,7 @@
     "dev": "webpack serve --mode development",
     "format": "prettier --write {*.js,src/**/*.{js,jsx}}",
     "lint": "eslint src/ --ext jsx,js --fix",
+    "server": "json-server -p3200 --watch db.json",
     "prepare": "npx simple-pre-commit"
   },
   "keywords": [],
@@ -33,6 +34,7 @@
     "html-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.0",
+    "json-server": "^0.17.0",
     "lint-staged": "^11.2.6",
     "mini-css-extract-plugin": "^2.4.4",
     "prettier": "^2.4.1",
@@ -42,10 +44,16 @@
     "webpack-dev-server": "^4.4.0"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "history": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.0.2",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.0",
     "styled-components": "^5.3.3"
   },
   "lint-staged": {

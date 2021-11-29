@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
 :root{
-  background-color: #ae485d;
+  background-color: ${props => props.theme.bg};
   font-size: 16px;
   display: flex;
   justify-content: center;
